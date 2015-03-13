@@ -14,6 +14,7 @@
 		90D0865C1AB2ED71009CBEC7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90D0865B1AB2ED71009CBEC7 /* Images.xcassets */; };
 		90D0865F1AB2ED71009CBEC7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90D0865D1AB2ED71009CBEC7 /* LaunchScreen.xib */; };
 		90D0866B1AB2ED71009CBEC7 /* XJTopWindow_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D0866A1AB2ED71009CBEC7 /* XJTopWindow_DemoTests.m */; };
+		90D086771AB2EE34009CBEC7 /* XJTopWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D086761AB2EE34009CBEC7 /* XJTopWindow.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		90D086641AB2ED71009CBEC7 /* XJTopWindow_DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XJTopWindow_DemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		90D086691AB2ED71009CBEC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		90D0866A1AB2ED71009CBEC7 /* XJTopWindow_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XJTopWindow_DemoTests.m; sourceTree = "<group>"; };
+		90D086751AB2EE34009CBEC7 /* XJTopWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XJTopWindow.h; sourceTree = "<group>"; };
+		90D086761AB2EE34009CBEC7 /* XJTopWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XJTopWindow.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		90D0864D1AB2ED71009CBEC7 /* XJTopWindow_Demo */ = {
 			isa = PBXGroup;
 			children = (
+				90D086741AB2EE34009CBEC7 /* XJTopWindow */,
 				90D086521AB2ED71009CBEC7 /* AppDelegate.h */,
 				90D086531AB2ED71009CBEC7 /* AppDelegate.m */,
 				90D086551AB2ED71009CBEC7 /* ViewController.h */,
@@ -117,6 +121,15 @@
 				90D086691AB2ED71009CBEC7 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		90D086741AB2EE34009CBEC7 /* XJTopWindow */ = {
+			isa = PBXGroup;
+			children = (
+				90D086751AB2EE34009CBEC7 /* XJTopWindow.h */,
+				90D086761AB2EE34009CBEC7 /* XJTopWindow.m */,
+			);
+			path = XJTopWindow;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				90D086571AB2ED71009CBEC7 /* ViewController.m in Sources */,
+				90D086771AB2EE34009CBEC7 /* XJTopWindow.m in Sources */,
 				90D086541AB2ED71009CBEC7 /* AppDelegate.m in Sources */,
 				90D086511AB2ED71009CBEC7 /* main.m in Sources */,
 			);
